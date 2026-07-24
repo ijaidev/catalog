@@ -42,7 +42,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Build base-hyperlight
-      uses: unikraft/kraftkit@plat-hyperlight
+      uses: ijaidev/kraftkit@exp-ci-action
       with:
         loglevel: debug
         workdir: library/base-hyperlight
